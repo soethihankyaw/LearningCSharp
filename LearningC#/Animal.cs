@@ -17,6 +17,8 @@ namespace Learn.Class.Static.This.NullableTypes
         public string Sound { get => sound; set => sound = value; }
         public static int NumOfAnimals { get => numOfAnimals; set => numOfAnimals = value; }
 
+        public int IdNumber => idNumber;
+
         public Animal()
         {
             name = "No Name";
