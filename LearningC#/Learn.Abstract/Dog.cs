@@ -1,15 +1,11 @@
-﻿using Learn.Class.Static.This.NullableTypes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using Learn.Class.Static.This.NullableTypes;
-using Learn.InnerClass;
-using Learn.Struts;
 
-namespace Learn.InnerClass
+namespace LearningC_.Learn.Abstract
 {
     internal class Dog : Animal
     {
@@ -21,7 +17,7 @@ namespace Learn.InnerClass
         }
     }
 
-    
+
 }
 
 //Animal cat = new Animal();

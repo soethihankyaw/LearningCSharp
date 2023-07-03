@@ -1,12 +1,5 @@
-﻿using Learn.Class.Static.This.NullableTypes;
-using Learn.Struts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Learn.Structs
+﻿
+namespace LearningC_.Learn.Abstract
 {
     internal class LearnStructs
     {

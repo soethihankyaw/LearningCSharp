@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn.Abstract
+namespace LearningC_.Learn.Abstract
 {
     abstract class Shape
     {
-        public string Name { get; set; }    
+        public string Name { get; set; }
 
         public virtual void GetInfo()
         {

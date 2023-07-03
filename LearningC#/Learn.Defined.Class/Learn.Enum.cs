@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn.Enum
+namespace LearningC_.Learn.Others
 {
-     public class LearnEnum
+    public class LearnEnum
     {
         internal void paintColor(CarColor color)
         {
             Console.WriteLine("The car is painted with {0} and color of code is {1}", color, (int)color);
         }
 
-        
+
     }
 
     enum CarColor : byte

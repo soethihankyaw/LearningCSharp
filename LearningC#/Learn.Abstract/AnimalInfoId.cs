@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inheritence
+namespace LearningC_.Learn.Abstract
 {
     internal class AnimalInfoId
     {

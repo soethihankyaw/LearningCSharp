@@ -1,15 +1,14 @@
-﻿using Learn.Abstract;
-using LearningC_;
+﻿using LearningC_;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn.Abstract
+namespace LearningC_.Learn.Abstract
 {
     internal class Circle : Shape
-    {   
+    {
         public double Radius { get; set; }
 
         public Circle(double radius)
@@ -20,13 +19,13 @@ namespace Learn.Abstract
 
         public override double Area()
         {
-            return Math.PI * (Math.Pow(Radius, 2.0));
+            return Math.PI * Math.Pow(Radius, 2.0);
         }
 
         public override void GetInfo()
         {
             base.GetInfo();
-            Console.WriteLine("It has a {0} radius.", Radius );
+            Console.WriteLine("It has a {0} radius.", Radius);
         }
     }
 }

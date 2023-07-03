@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn.Date.And.Time
+namespace LearningC_.Learn.Others
 {
-     class LearnDateAndTime
+    class LearnDateAndTime
     {
         public DateTime dob = new DateTime(1993, 5, 4);
         public TimeSpan lunchTime = new TimeSpan(12, 30, 0);

@@ -1,18 +1,18 @@
-﻿using Learn.Abstract;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn.Abstract
+namespace LearningC_.Learn.Abstract
 {
     class Rectangle : Shape
     {
         public double Length { get; set; }
         public double Width { get; set; }
 
-        public Rectangle(double length, double width) {
+        public Rectangle(double length, double width)
+        {
             Name = "Rectangle";
             Length = length;
             Width = width;
