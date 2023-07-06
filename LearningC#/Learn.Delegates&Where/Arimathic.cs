@@ -22,6 +22,10 @@ namespace LearningC_.Learn.Delegates
         //Console.WriteLine($"Substract {6} & {4}");
         //sub(5, 5);
 
+        //delegates using Lambda
+        //doubleIt dblIt = x => Math.Round(Math.Pow(x, 2));
+        //Console.WriteLine("The Square of numbers is {0} : ", dblIt(5));
+
 
         //place outside of main method
         //public delegate void Arimathic(double num1, double num2);
@@ -34,6 +38,7 @@ namespace LearningC_.Learn.Delegates
         //    Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
         //}
 
+        //delegate double doubleIt(double value);
 
     }
 }
